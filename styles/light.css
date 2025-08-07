@@ -10,11 +10,12 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --cover-bg-image: url(../images/cover-image-light.png);
-  --cover-color: #353430;
+  --cover-color: #ffc2e6;
   --accent-color: #ff8dcb;
   --color-text: #353430;
   --accent-header-color: #ffc2e6;
   --color-title-main: #353430;
+  --color-subtitle: #000028;
   --color-button-theme: #353430;
   --color-decor-lamp: transparent;
 }
@@ -22,12 +23,13 @@
 @media (prefers-color-scheme: light) {
   :root {
     --cover-bg-image: url(../images/cover-image-light.png);
-    --cover-color: #353430;
-    --accent-color: #ff8dcb;
-    --color-text: #353430;
-    --accent-header-color: #ffc2e6;
-    --color-title-main: #353430;
-    --color-button-theme: #353430;
-    --color-decor-lamp: transparent;
+  --cover-color: #ffc2e6;
+  --accent-color: #ff8dcb;
+  --color-text: #353430;
+  --accent-header-color: #ffc2e6;
+  --color-title-main: #353430;
+  --color-subtitle: #000028;
+  --color-button-theme: #353430;
+  --color-decor-lamp: transparent;
   }
 }

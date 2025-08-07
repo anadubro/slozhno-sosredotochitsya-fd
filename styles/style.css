@@ -16,7 +16,7 @@
   block-size: 100vh;
   position: relative;
   display: grid;
-  grid-template-columns: 1fr min-content;  
+  grid-template-columns: 1fr min-content;
   grid-template-rows: clamp(172px, 10vw + 27.6vi, 290px) clamp(
       312px,
       37vw,
@@ -116,7 +116,7 @@
 
 .title-decor {
   background-color: var(--accent-color);
-  color: var(--cover-color);
+  color: var(--color-subtitle);
 }
 
 .header__theme-menu-button_active {
@@ -272,7 +272,7 @@
     display: block;
   }
 
-  .images-group__title{
+  .images-group__title {
     margin-block-end: 20px;
   }
 
