@@ -8,7 +8,6 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding-inline: 2.6vi;
   font-family: var(--base-font-family, sans-serif);
   font-weight: 400;
   font-size: 18px;
@@ -25,6 +24,10 @@
       37vw,
       517px
     ) clamp(183px, calc(19.5vw + 91px), 300px);
+}
+
+.header, .main, .footer {
+  padding-inline: 2.6vi;
 }
 
 .decorated-zone__bulb {
@@ -301,7 +304,7 @@
 }
 
 @media (width >= 1024px) {
-  .page {
+  .header, .main, .footer {
     padding-inline: 2vi;
   }
 
