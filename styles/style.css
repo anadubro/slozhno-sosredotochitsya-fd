@@ -224,12 +224,11 @@
     gap: 80px;
   }
 
-  .main__section {
+  .teasers-group {
     display: grid;
   }
 
-  .teasers-group_column,
-  .teasers-group_row {
+  .teasers-group {
     grid-template-columns: fit-content(236px) 1fr;
     grid-auto-rows: min-content;
   }
@@ -238,8 +237,7 @@
     gap: 20px;
   }
 
-  .teasers-group_column .main__section-title,
-  .teasers-group_row .main__section-title {
+  .teasers-group .main__section-title {
     grid-column: 1;
     grid-row: 1;
   }
@@ -341,12 +339,14 @@
   .teasers-group_column {
     grid-template-columns: fit-content(313px) 1fr;
     column-gap: 21px;
-    row-gap: 20px;
   }
 
   .teasers-group_row {
     grid-template-columns: repeat(3, fit-content(315px));
     column-gap: 19.5px;
+  }
+
+  .teasers-group {
     row-gap: 20px;
   }
 
