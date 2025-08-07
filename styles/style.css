@@ -173,6 +173,14 @@
   text-decoration: none;
 }
 
+.teaser__link:focus {
+  outline: none;
+}
+
+.teaser__link:focus-visible {
+  outline: 1px solid var(--color-text);
+}
+
 .teaser__link:hover {
   border-bottom: solid 1px currentColor;
 }
