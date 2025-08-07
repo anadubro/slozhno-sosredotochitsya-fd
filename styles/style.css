@@ -2,6 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  margin: 0 auto;
   background-image: var(--cover-bg-image);
   background-color: var(--cover-color);
   background-repeat: no-repeat;
