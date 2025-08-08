@@ -13,11 +13,9 @@
   --color-subtitle: #000028;
   --color-button-theme: #ff0070;
   --color-decor-lamp: #ff0070;
+  --color-button-hover: #ff007066;
 
-  --base-font-family: 'IBM Plex mono';
+  --base-font-family: 'IBM Plex mono', Arial, sans-serif;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
-
-  --margin-block-h3: 20px 10px;
-  --margin-block-h4: 20px 10px;
 }
