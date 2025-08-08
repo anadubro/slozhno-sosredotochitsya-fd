@@ -82,7 +82,7 @@
   cursor: pointer;
 }
 
-.header__theme-menu-button:hover  {
+.header__theme-menu-button:hover {
   border: solid 1px var(--color-button-hover);
 }
 
